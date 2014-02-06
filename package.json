@@ -1,0 +1,14 @@
+{
+  "name": "requireio",
+  "version": "0.0.0",
+  "description": "require.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "st -p $PORT -d $(pwd)/public/ -i index.html"
+  },
+  "author": "rvagg",
+  "license": "private",
+  "dependencies": {
+    "st": "~0.2.4"
+  }
+}
