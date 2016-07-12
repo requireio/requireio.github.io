@@ -2,7 +2,10 @@
 <html>
 <head>
   <title>require.io</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="meta" content="meta: not a stealth start-up or anything so fancy" />
   <style>
+
 @font-face {
   font-family: 'Century Schoolbook Monospace';
   src: url('./fonts/Century-Schoolbook-Monospace-BT.eot');
@@ -13,17 +16,39 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: 'Century Schoolbook Monospace', monospace;
   background: #272822;
 }
-h1 { position: absolute; bottom: 20px; right: 40px; }
+
+#content { position: absolute; bottom: 20px; right: 40px; }
+
 h1 .require { color: #a6e22e; }
 h1 .paren { color: #e6d874; }
 h1 .io { color: #f92672; }
 h1 .dot { color: white; }
+
+p { color: #fff; opacity: 0.1; font-size: 13px; }
+a, a:visited, a:hover { color: #fff; text-decoration: none; }
+
   </style>
 </head>
 <body>
-  <h1><span class="require">require</span><span class="dot">.</span><span class="io">io</span><span class="paren">()</span></h1>
+  <div id="content">
+    <h1><span class="require">require</span><span class="dot">.</span><span class="io">io</span><span class="paren">()</span></h1>
+
+    <p>
+      {<br>
+      &nbsp;&nbsp;"is": [ "Rod Vagg" ],<br>
+      &nbsp;&nbsp;"email": "r@va.gg",<br>
+      &nbsp;&nbsp;"txt": "<a href="https://r.va.gg/">https://r.va.gg</a>",<br>
+      &nbsp;&nbsp;"twitter": "<a href="https://twitter.com/rvagg">@rvagg</a>",<br>
+      &nbsp;&nbsp;"github": "<a href="https://github.com/rvagg">rvagg</a>",<br>
+      &nbsp;&nbsp;"linkedin": "<a href="https://youtu.be/jI-kpVh6e1U">ニャー</a>",<br>
+      &nbsp;&nbsp;"facebook": "<a href="https://youtu.be/oavMtUWDBTM">Эдуард Хиль</a>",<br>
+      &nbsp;&nbsp;"with": "<a href="https://nodesource.com">NodeSource</a>"<br>
+      }<br>
+    </p>
+  </div>
 </body>
